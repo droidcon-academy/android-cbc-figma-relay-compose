@@ -1,0 +1,373 @@
+{
+  "name": "terms_and_conditions",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "f5g3Pn44jdT8iWvzyIJyOc",
+    "node": "104:2887",
+    "version": "4252891545",
+    "component-id": "4459b27cb0e10253d32a07a2f44619bd304365b1"
+  },
+  "default": "isChecked=true",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Checkboxes"
+      },
+      {
+        "type": "text",
+        "id": "I agree to the Terms and conditions"
+      },
+      {
+        "type": "group",
+        "id": "state-layer"
+      },
+      {
+        "type": "group",
+        "id": "state-layer_synth"
+      },
+      {
+        "type": "group",
+        "id": "Icons/check_small"
+      },
+      {
+        "type": "vector",
+        "id": "container"
+      },
+      {
+        "type": "vector",
+        "id": "icon"
+      }
+    ],
+    "modes": {
+      "isChecked=true": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Checkboxes",
+              "I agree to the Terms and conditions"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Checkboxes",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "I agree to the Terms and conditions",
+            "font-weight": "^md.sys.typescale.body-small.weight",
+            "color": "^md.sys.color.on-background",
+            "text-content": "$description",
+            "overflow": "visible",
+            "text-size": "^md.sys.typescale.body-small.size",
+            "letter-spacing": "^md.sys.typescale.body-small.tracking",
+            "line-height": "^md.sys.typescale.body-small.line-height",
+            "typeface": "^md.sys.typescale.body-small.font"
+          },
+          {
+            "id": "state-layer",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "state-layer_synth",
+              "Icons/check_small"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "state-layer_synth",
+            "opacity": "100.0",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Icons/check_small",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "0.0"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "24.0"
+              }
+            },
+            "is-structured": "false",
+            "children": [
+              "icon"
+            ]
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container.svg"
+          },
+          {
+            "id": "icon",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": "0.0"
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": "-0.29998779296875"
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "12.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "9.4000244140625"
+              }
+            },
+            "vector-content": "icon.svg"
+          }
+        ]
+      },
+      "isChecked=false": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Checkboxes",
+              "I agree to the Terms and conditions"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Checkboxes",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "48.0"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "state-layer"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "I agree to the Terms and conditions",
+            "font-weight": "^md.sys.typescale.body-small.weight",
+            "color": "^md.sys.color.on-background",
+            "text-content": "$description",
+            "overflow": "visible",
+            "text-size": "^md.sys.typescale.body-small.size",
+            "letter-spacing": "^md.sys.typescale.body-small.tracking",
+            "line-height": "^md.sys.typescale.body-small.line-height",
+            "typeface": "^md.sys.typescale.body-small.font"
+          },
+          {
+            "id": "state-layer",
+            "padding": "11.0",
+            "border-radius": "100.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "container"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "container",
+            "border-radius": "2.0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "18.0"
+              }
+            },
+            "vector-content": "container1.svg"
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "description": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "ambients": {
+    "md.sys.color.on-background": {
+      "data-type": "color",
+      "description": null
+    },
+    "md.sys.typescale.body-small.font": {
+      "data-type": "typeface",
+      "description": null
+    },
+    "md.sys.typescale.body-small.weight": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-small.size": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-small.tracking": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-small.line-height": {
+      "data-type": "double",
+      "description": null
+    }
+  },
+  "previews": [
+    {
+      "design": "isChecked=true",
+      "size": {
+        "width": 388.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "description": "I agree to the Terms and conditions"
+      },
+      "ambients": {
+        "md.sys.color.on-background": {
+          "alpha": "1.0",
+          "hue": "180.0",
+          "saturation": "0.10714285714285714",
+          "value": "0.10980392156862745"
+        },
+        "md.sys.typescale.body-small.font": "DM Sans",
+        "md.sys.typescale.body-small.weight": 400.0,
+        "md.sys.typescale.body-small.size": 12.0,
+        "md.sys.typescale.body-small.tracking": 0.4000000059604645,
+        "md.sys.typescale.body-small.line-height": 1.3333332824707032
+      }
+    },
+    {
+      "design": "isChecked=false",
+      "size": {
+        "width": 388.0,
+        "height": 48.0
+      },
+      "parameters": {
+        "description": "I agree to the Terms and conditions"
+      },
+      "ambients": {
+        "md.sys.color.on-background": {
+          "alpha": "1.0",
+          "hue": "180.0",
+          "saturation": "0.10714285714285714",
+          "value": "0.10980392156862745"
+        },
+        "md.sys.typescale.body-small.font": "DM Sans",
+        "md.sys.typescale.body-small.weight": 400.0,
+        "md.sys.typescale.body-small.size": 12.0,
+        "md.sys.typescale.body-small.tracking": 0.4000000059604645,
+        "md.sys.typescale.body-small.line-height": 1.3333332824707032
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,4 @@
+{
+  "preview-theme": "com.droidcon.gatekey.ui.theme.GateKeyTheme",
+  "ambient-translations-path": "app/src/main/ui-package-resources/style-mappings/figma_styles.json"
+}

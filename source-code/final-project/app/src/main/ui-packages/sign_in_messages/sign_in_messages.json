@@ -1,0 +1,193 @@
+{
+  "name": "sign_in_messages",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "f5g3Pn44jdT8iWvzyIJyOc",
+    "node": "102:2512",
+    "version": "4252891545",
+    "component-id": "ded2c0f8b5efbbcf20905263665cfc3b3f1c62e7"
+  },
+  "default": "Sign In Messages",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "text",
+        "id": "Hello!"
+      },
+      {
+        "type": "text",
+        "id": "Sign in"
+      },
+      {
+        "type": "text",
+        "id": "Please fill your informations"
+      }
+    ],
+    "modes": {
+      "Sign In Messages": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Hello!",
+              "Sign in",
+              "Please fill your informations"
+            ],
+            "item-spacing": "14.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Hello!",
+            "font-weight": "^md.sys.typescale.headline-large.weight",
+            "color": "^md.sys.color.on-background",
+            "text-content": "Hello!",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "^md.sys.typescale.headline-large.size",
+            "letter-spacing": "^md.sys.typescale.headline-large.tracking",
+            "line-height": "^md.sys.typescale.headline-large.line-height",
+            "typeface": "^md.sys.typescale.headline-large.font"
+          },
+          {
+            "id": "Sign in",
+            "font-weight": "^md.sys.typescale.headline-medium.weight",
+            "color": "^md.sys.color.on-background",
+            "text-content": "Sign in",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "^md.sys.typescale.headline-medium.size",
+            "letter-spacing": "^md.sys.typescale.headline-medium.tracking",
+            "line-height": "^md.sys.typescale.headline-medium.line-height",
+            "typeface": "^md.sys.typescale.headline-medium.font"
+          },
+          {
+            "id": "Please fill your informations",
+            "font-weight": "^md.sys.typescale.body-medium.weight",
+            "color": "^md.sys.color.on-background",
+            "text-content": "Please fill your informations",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": "^md.sys.typescale.body-medium.size",
+            "letter-spacing": "^md.sys.typescale.body-medium.tracking",
+            "line-height": "^md.sys.typescale.body-medium.line-height",
+            "typeface": "^md.sys.typescale.body-medium.font"
+          }
+        ]
+      }
+    }
+  },
+  "ambients": {
+    "md.sys.color.on-background": {
+      "data-type": "color",
+      "description": null
+    },
+    "md.sys.typescale.headline-large.font": {
+      "data-type": "typeface",
+      "description": null
+    },
+    "md.sys.typescale.headline-large.weight": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-large.size": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-large.tracking": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-large.line-height": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-medium.font": {
+      "data-type": "typeface",
+      "description": null
+    },
+    "md.sys.typescale.headline-medium.weight": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-medium.size": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-medium.tracking": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.headline-medium.line-height": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-medium.font": {
+      "data-type": "typeface",
+      "description": null
+    },
+    "md.sys.typescale.body-medium.weight": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-medium.size": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-medium.tracking": {
+      "data-type": "double",
+      "description": null
+    },
+    "md.sys.typescale.body-medium.line-height": {
+      "data-type": "double",
+      "description": null
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign In Messages",
+      "size": {
+        "width": 206.0,
+        "height": 104.0
+      },
+      "ambients": {
+        "md.sys.color.on-background": {
+          "alpha": "1.0",
+          "hue": "180.0",
+          "saturation": "0.10714285714285714",
+          "value": "0.10980392156862745"
+        },
+        "md.sys.typescale.headline-large.font": "DM Sans",
+        "md.sys.typescale.headline-large.weight": 700.0,
+        "md.sys.typescale.headline-large.size": 32.0,
+        "md.sys.typescale.headline-large.line-height": 1.0,
+        "md.sys.typescale.headline-medium.font": "DM Sans",
+        "md.sys.typescale.headline-medium.weight": 500.0,
+        "md.sys.typescale.headline-medium.size": 24.0,
+        "md.sys.typescale.headline-medium.line-height": 1.0,
+        "md.sys.typescale.body-medium.font": "DM Sans",
+        "md.sys.typescale.body-medium.weight": 400.0,
+        "md.sys.typescale.body-medium.size": 14.0,
+        "md.sys.typescale.body-medium.line-height": 1.4285714721679688
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

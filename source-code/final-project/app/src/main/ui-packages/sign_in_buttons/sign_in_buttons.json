@@ -1,0 +1,109 @@
+{
+  "name": "sign_in_buttons",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "f5g3Pn44jdT8iWvzyIJyOc",
+    "node": "102:2577",
+    "version": "4252891545",
+    "component-id": "2f207125255cb7ed75dc99190e4a47f404952a40"
+  },
+  "default": "Sign in Buttons",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Button",
+        "key": "button"
+      },
+      {
+        "type": "adin_component",
+        "id": "Button1",
+        "key": "button"
+      }
+    ],
+    "modes": {
+      "Sign in Buttons": {
+        "rules": [
+          {
+            "id": "top_level",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "main-axis-align": "start",
+            "children": [
+              "Button",
+              "Button1"
+            ],
+            "clip-content": "false"
+          },
+          {
+            "id": "Button",
+            "design": "Configuration=Filled,State=enabled",
+            "on Tap": "$on SignIn Button Tapped",
+            "Icon": "add",
+            "Label": "Sign in now",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            }
+          },
+          {
+            "id": "Button1",
+            "design": "Configuration=Text,State=enabled",
+            "on Tap": "$on SignUp Button Tapped",
+            "Icon": "add",
+            "Label": "Sign up",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on SignIn Button Tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
+    "on SignUp Button Tapped": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign in Buttons",
+      "size": {
+        "width": 184.0,
+        "height": 80.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}

@@ -1,0 +1,131 @@
+{
+  "name": "sign_in_fields",
+  "version": 32,
+  "source-key": {
+    "type": "figma",
+    "file": "f5g3Pn44jdT8iWvzyIJyOc",
+    "node": "102:2538",
+    "version": "4252891545",
+    "component-id": "fd40324e299580e56d11e745ce501c6c414ef60e"
+  },
+  "default": "Sign In Fields",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "adin_component",
+        "id": "Text field",
+        "key": "text_field"
+      },
+      {
+        "type": "adin_component",
+        "id": "Text field1",
+        "key": "text_field"
+      }
+    ],
+    "modes": {
+      "Sign In Fields": {
+        "rules": [
+          {
+            "id": "top_level",
+            "padding": {
+              "left": "32.0",
+              "top": "16.0",
+              "right": "32.0",
+              "bottom": "16.0"
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "Text field",
+              "Text field1"
+            ],
+            "item-spacing": "34.0",
+            "clip-content": "false"
+          },
+          {
+            "id": "Text field",
+            "design": "Style=outlined,State=enabled,Text configurations=input-text",
+            "On change": "$on Email changed",
+            "Leading icon": "search",
+            "Trailing icon": "cancel",
+            "Input text": "$email",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            }
+          },
+          {
+            "id": "Text field1",
+            "design": "Style=outlined,State=enabled,Text configurations=input-text",
+            "On change": "$on Password change",
+            "Leading icon": "search",
+            "Trailing icon": "cancel",
+            "Input text": "$password",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": "1.0"
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": "56.0"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "parameters": {
+    "on Email changed": {
+      "data-type": "value-changed-callback-text",
+      "required": false,
+      "description": ""
+    },
+    "email": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "on Password change": {
+      "data-type": "value-changed-callback-text",
+      "required": false,
+      "description": ""
+    },
+    "password": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    }
+  },
+  "previews": [
+    {
+      "design": "Sign In Fields",
+      "size": {
+        "width": 300.0,
+        "height": 178.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
