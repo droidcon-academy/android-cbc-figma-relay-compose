@@ -2,5 +2,5 @@
     "target": "GateKeyTextField",
     "package": "com.droidcon.gatekey.ui.components",
     "generateImplementation": true,
-    "generatePreviews": true
+    "generatePreviews": false
 }

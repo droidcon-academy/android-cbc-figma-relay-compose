@@ -1,12 +1,12 @@
 {
   "name": "sign_in_messages",
-  "version": 32,
+  "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "f5g3Pn44jdT8iWvzyIJyOc",
-    "node": "102:2512",
-    "version": "4252891545",
-    "component-id": "ded2c0f8b5efbbcf20905263665cfc3b3f1c62e7"
+    "file": "3KDQ5PUKBbhKIxrxgCW4Fm",
+    "node": "2005:134",
+    "version": "5665962378",
+    "component-id": "3b48d993a8b37697dcdfe025455a03ee38d984af"
   },
   "default": "Sign In Messages",
   "design": {
@@ -37,20 +37,19 @@
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
               }
             },
-            "main-axis-align": "start",
             "children": [
               "Hello!",
               "Sign in",
               "Please fill your informations"
             ],
-            "item-spacing": "14.0",
-            "clip-content": "false"
+            "item-spacing": 14.0,
+            "clip-content": false
           },
           {
             "id": "Hello!",
@@ -167,10 +166,10 @@
       },
       "ambients": {
         "md.sys.color.on-background": {
-          "alpha": "1.0",
-          "hue": "180.0",
-          "saturation": "0.10714285714285714",
-          "value": "0.10980392156862745"
+          "alpha": 1.0,
+          "hue": 180.0,
+          "saturation": 0.10714285714285714,
+          "value": 0.10980392156862745
         },
         "md.sys.typescale.headline-large.font": "DM Sans",
         "md.sys.typescale.headline-large.weight": 700.0,

@@ -1,12 +1,12 @@
 {
   "name": "logo",
-  "version": 32,
+  "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "f5g3Pn44jdT8iWvzyIJyOc",
-    "node": "102:2507",
-    "version": "4252891545",
-    "component-id": "be33ec9a7c18131ebf27335dab40fa8a7b4cc3db"
+    "file": "3KDQ5PUKBbhKIxrxgCW4Fm",
+    "node": "1:135",
+    "version": "5665962378",
+    "component-id": "a449aef695d944dd4e1040e4aaa0a44e010c046c"
   },
   "default": "Logo",
   "design": {
@@ -44,8 +44,7 @@
             "id": "top_level",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "shrink"
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
@@ -56,25 +55,25 @@
               "GateKey",
               "Gate Key"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "GateKey",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "85.0"
+                "value": 85.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "85.0"
+                "value": 85.0
               }
             },
-            "is-structured": "false",
+            "is-structured": false,
             "children": [
               "vpn_key_black_24dp 1"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "Gate Key",
@@ -91,12 +90,12 @@
           {
             "id": "vpn_key_black_24dp 1",
             "margin": {
-              "left": "18.352294921875",
-              "top": "13.8447265625",
-              "right": "18.352294921875",
-              "bottom": "22.85986328125"
+              "left": 18.352294921875,
+              "top": 13.8447265625,
+              "right": 18.352249145507812,
+              "bottom": 22.859817504882812
             },
-            "is-structured": "false",
+            "is-structured": false,
             "children": [
               "Vector",
               "Vector1"
@@ -107,30 +106,30 @@
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               }
             }
           },
           {
             "id": "Vector1",
             "margin": {
-              "left": "2.0123291015625",
-              "top": "12.0738525390625",
-              "right": "2.01220703125",
-              "bottom": "12.0738525390625"
+              "left": 2.0123291015625,
+              "top": 12.0738525390625,
+              "right": 2.0122909545898438,
+              "bottom": 12.073875427246094
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               }
             },
             "vector-content": "vector.svg"
@@ -169,15 +168,15 @@
     {
       "design": "Logo",
       "size": {
-        "width": 412.0,
+        "width": 188.0,
         "height": 85.0
       },
       "ambients": {
         "md.sys.color.on-background": {
-          "alpha": "1.0",
-          "hue": "180.0",
-          "saturation": "0.10714285714285714",
-          "value": "0.10980392156862745"
+          "alpha": 1.0,
+          "hue": 180.0,
+          "saturation": 0.10714285714285714,
+          "value": 0.10980392156862745
         },
         "md.sys.typescale.headline-medium.font": "DM Sans",
         "md.sys.typescale.headline-medium.weight": 500.0,

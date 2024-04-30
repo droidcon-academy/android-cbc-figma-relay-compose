@@ -1,12 +1,12 @@
 {
   "name": "terms_and_conditions",
-  "version": 32,
+  "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "f5g3Pn44jdT8iWvzyIJyOc",
-    "node": "104:2887",
-    "version": "4252891545",
-    "component-id": "4459b27cb0e10253d32a07a2f44619bd304365b1"
+    "file": "3KDQ5PUKBbhKIxrxgCW4Fm",
+    "node": "2011:244",
+    "version": "5665962378",
+    "component-id": "c889df191f962bb446da7fd9fd192db792e74b22"
   },
   "default": "isChecked=true",
   "design": {
@@ -50,10 +50,10 @@
         "rules": [
           {
             "id": "top_level",
+            "tap-handler": "$On Tap",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "shrink"
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
@@ -64,25 +64,25 @@
               "Checkboxes",
               "I agree to the Terms and conditions"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "Checkboxes",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "48.0"
+                "value": 48.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "48.0"
+                "value": 48.0
               }
             },
             "arrangement": "row",
             "children": [
               "state-layer"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "I agree to the Terms and conditions",
@@ -97,7 +97,7 @@
           },
           {
             "id": "state-layer",
-            "border-radius": "100.0",
+            "border-radius": 100.0,
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -106,18 +106,18 @@
                 "sizing-mode": "shrink"
               }
             },
-            "is-structured": "false",
+            "is-structured": false,
             "children": [
               "state-layer_synth",
               "Icons/check_small"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "state-layer_synth",
-            "opacity": "100.0",
-            "padding": "11.0",
-            "border-radius": "100.0",
+            "opacity": 100.0,
+            "padding": 11.0,
+            "border-radius": 100.0,
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -130,46 +130,46 @@
             "children": [
               "container"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "Icons/check_small",
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "0.0"
+                "offset": 0.0
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "0.0"
+                "offset": 0.0
               }
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "24.0"
+                "value": 24.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "24.0"
+                "value": 24.0
               }
             },
-            "is-structured": "false",
+            "is-structured": false,
             "children": [
               "icon"
             ]
           },
           {
             "id": "container",
-            "border-radius": "2.0",
+            "border-radius": 2.0,
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "18.0"
+                "value": 18.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "18.0"
+                "value": 18.0
               }
             },
             "vector-content": "container.svg"
@@ -179,21 +179,21 @@
             "alignment": {
               "horizontal": {
                 "attachment": "center",
-                "offset": "0.0"
+                "offset": 9.5367431640625e-7
               },
               "vertical": {
                 "attachment": "center",
-                "offset": "-0.29998779296875"
+                "offset": -0.2999997138977051
               }
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "12.0"
+                "value": 12.000001907348633
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "9.4000244140625"
+                "value": 9.40000057220459
               }
             },
             "vector-content": "icon.svg"
@@ -204,10 +204,10 @@
         "rules": [
           {
             "id": "top_level",
+            "tap-handler": "$On Tap",
             "size-constraints": {
               "width-constraints": {
-                "sizing-mode": "proportional",
-                "value": "1.0"
+                "sizing-mode": "shrink"
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
@@ -218,25 +218,25 @@
               "Checkboxes",
               "I agree to the Terms and conditions"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "Checkboxes",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "48.0"
+                "value": 48.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "48.0"
+                "value": 48.0
               }
             },
             "arrangement": "row",
             "children": [
               "state-layer"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "I agree to the Terms and conditions",
@@ -251,8 +251,8 @@
           },
           {
             "id": "state-layer",
-            "padding": "11.0",
-            "border-radius": "100.0",
+            "padding": 11.0,
+            "border-radius": 100.0,
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -265,19 +265,19 @@
             "children": [
               "container"
             ],
-            "clip-content": "false"
+            "clip-content": false
           },
           {
             "id": "container",
-            "border-radius": "2.0",
+            "border-radius": 2.0,
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "fixed",
-                "value": "18.0"
+                "value": 18.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "18.0"
+                "value": 18.0
               }
             },
             "vector-content": "container1.svg"
@@ -287,6 +287,11 @@
     }
   },
   "parameters": {
+    "On Tap": {
+      "data-type": "void-callback",
+      "required": false,
+      "description": ""
+    },
     "description": {
       "data-type": "text",
       "required": false,
@@ -323,7 +328,7 @@
     {
       "design": "isChecked=true",
       "size": {
-        "width": 388.0,
+        "width": 258.0,
         "height": 48.0
       },
       "parameters": {
@@ -331,10 +336,10 @@
       },
       "ambients": {
         "md.sys.color.on-background": {
-          "alpha": "1.0",
-          "hue": "180.0",
-          "saturation": "0.10714285714285714",
-          "value": "0.10980392156862745"
+          "alpha": 1.0,
+          "hue": 180.0,
+          "saturation": 0.10714285714285714,
+          "value": 0.10980392156862745
         },
         "md.sys.typescale.body-small.font": "DM Sans",
         "md.sys.typescale.body-small.weight": 400.0,
@@ -346,7 +351,7 @@
     {
       "design": "isChecked=false",
       "size": {
-        "width": 388.0,
+        "width": 258.0,
         "height": 48.0
       },
       "parameters": {
@@ -354,10 +359,10 @@
       },
       "ambients": {
         "md.sys.color.on-background": {
-          "alpha": "1.0",
-          "hue": "180.0",
-          "saturation": "0.10714285714285714",
-          "value": "0.10980392156862745"
+          "alpha": 1.0,
+          "hue": 180.0,
+          "saturation": 0.10714285714285714,
+          "value": 0.10980392156862745
         },
         "md.sys.typescale.body-small.font": "DM Sans",
         "md.sys.typescale.body-small.weight": 400.0,

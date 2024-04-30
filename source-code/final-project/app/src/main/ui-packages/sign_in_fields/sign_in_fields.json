@@ -1,12 +1,12 @@
 {
   "name": "sign_in_fields",
-  "version": 32,
+  "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "f5g3Pn44jdT8iWvzyIJyOc",
-    "node": "102:2538",
-    "version": "4252891545",
-    "component-id": "fd40324e299580e56d11e745ce501c6c414ef60e"
+    "file": "3KDQ5PUKBbhKIxrxgCW4Fm",
+    "node": "2011:208",
+    "version": "5665962378",
+    "component-id": "d7e24762ca702d41e03505add48085a98c09d8f6"
   },
   "default": "Sign In Fields",
   "design": {
@@ -33,15 +33,15 @@
           {
             "id": "top_level",
             "padding": {
-              "left": "32.0",
-              "top": "16.0",
-              "right": "32.0",
-              "bottom": "16.0"
+              "left": 32.0,
+              "top": 16.0,
+              "right": 32.0,
+              "bottom": 16.0
             },
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
@@ -51,42 +51,44 @@
               "Text field",
               "Text field1"
             ],
-            "item-spacing": "34.0",
-            "clip-content": "false"
+            "item-spacing": 34.0,
+            "background-color": "^md.sys.color.background"
           },
           {
             "id": "Text field",
             "design": "Style=outlined,State=enabled,Text configurations=input-text",
-            "On change": "$on Email changed",
-            "Leading icon": "search",
-            "Trailing icon": "cancel",
+            "On Change": "$On Email Change",
+            "Show supporting text": true,
+            "Label text": "Email",
+            "Supporting text": "Please enter your email",
             "Input text": "$email",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "56.0"
+                "value": 56.0
               }
             }
           },
           {
             "id": "Text field1",
             "design": "Style=outlined,State=enabled,Text configurations=input-text",
-            "On change": "$on Password change",
-            "Leading icon": "search",
-            "Trailing icon": "cancel",
+            "On Change": "$On Password Change",
+            "Show supporting text": true,
+            "Label text": "Password",
+            "Supporting text": "Six digit password",
             "Input text": "$password",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "fixed",
-                "value": "56.0"
+                "value": 56.0
               }
             }
           }
@@ -95,7 +97,7 @@
     }
   },
   "parameters": {
-    "on Email changed": {
+    "On Email Change": {
       "data-type": "value-changed-callback-text",
       "required": false,
       "description": ""
@@ -105,7 +107,7 @@
       "required": false,
       "description": ""
     },
-    "on Password change": {
+    "On Password Change": {
       "data-type": "value-changed-callback-text",
       "required": false,
       "description": ""
@@ -116,12 +118,30 @@
       "description": ""
     }
   },
+  "ambients": {
+    "md.sys.color.background": {
+      "data-type": "color",
+      "description": null
+    }
+  },
   "previews": [
     {
       "design": "Sign In Fields",
       "size": {
-        "width": 300.0,
+        "width": 157.0,
         "height": 178.0
+      },
+      "parameters": {
+        "email": "account@email.com",
+        "password": "••••••"
+      },
+      "ambients": {
+        "md.sys.color.background": {
+          "alpha": 1.0,
+          "hue": 139.99999999999983,
+          "saturation": 0.011857707509881492,
+          "value": 0.9921568627450981
+        }
       }
     }
   ],

@@ -1,12 +1,12 @@
 {
   "name": "sign_in_buttons",
-  "version": 32,
+  "version": 33,
   "source-key": {
     "type": "figma",
-    "file": "f5g3Pn44jdT8iWvzyIJyOc",
-    "node": "102:2577",
-    "version": "4252891545",
-    "component-id": "2f207125255cb7ed75dc99190e4a47f404952a40"
+    "file": "3KDQ5PUKBbhKIxrxgCW4Fm",
+    "node": "2011:272",
+    "version": "5665962378",
+    "component-id": "67f7d74946e63475d897a469f34f65b3b5736dcb"
   },
   "default": "Sign in Buttons",
   "design": {
@@ -35,25 +35,24 @@
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
-                "value": "1.0"
+                "value": 1.0
               },
               "height-constraints": {
                 "sizing-mode": "shrink"
               }
             },
-            "main-axis-align": "start",
             "children": [
               "Button",
               "Button1"
             ],
-            "clip-content": "false"
+            "item-spacing": 7.0,
+            "clip-content": false
           },
           {
             "id": "Button",
             "design": "Configuration=Filled,State=enabled",
-            "on Tap": "$on SignIn Button Tapped",
-            "Icon": "add",
-            "Label": "Sign in now",
+            "On Tap": "$On SignIn Tapped",
+            "label": "$SignIn Label",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -66,9 +65,8 @@
           {
             "id": "Button1",
             "design": "Configuration=Text,State=enabled",
-            "on Tap": "$on SignUp Button Tapped",
-            "Icon": "add",
-            "Label": "Sign up",
+            "On Tap": "$On SignUp Tapped",
+            "label": "$SignUp Label",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "shrink"
@@ -83,12 +81,22 @@
     }
   },
   "parameters": {
-    "on SignIn Button Tapped": {
+    "SignIn Label": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "On SignIn Tapped": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
     },
-    "on SignUp Button Tapped": {
+    "SignUp Label": {
+      "data-type": "text",
+      "required": false,
+      "description": ""
+    },
+    "On SignUp Tapped": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
@@ -99,7 +107,11 @@
       "design": "Sign in Buttons",
       "size": {
         "width": 184.0,
-        "height": 80.0
+        "height": 87.0
+      },
+      "parameters": {
+        "SignIn Label": "Sign in now",
+        "SignUp Label": "Sign Up"
       }
     }
   ],
